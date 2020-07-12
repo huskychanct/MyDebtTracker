@@ -2,15 +2,15 @@
  
  export const PaymentsExpenses = () => {
      return (
-         <div class="pay-exp-container">
-             <div>
-                 <h4> Payments</h4>
-                 <p id="money-plus" class="money plus">+$0.00</p>
-             </div>
-             <div>
+         <div className="pay-exp-container">
+             
+                 <h4>Payments</h4>
+                 <p className="money plus">+$0.00</p>
+             
+             {/* <div>
                  <h4>Debt</h4>
-                 <p id="money-minus" class="money minus">-$0.00</p>
-             </div>
+                 <p className="money minus">-$0.00</p>
+             </div> */}
          </div>
      )
  }
